@@ -1,0 +1,57 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module",
+        "allowImportExportEverywhere": false,
+        "codeFrame": false
+    },
+    "env": {
+        "browser": true,
+        "jest": true
+    },
+    "rules": {
+        "no-console": "error",
+        "no-extra-parens": "error",
+        "no-extra-semi": "error",
+        "no-irregular-whitespace": "error",
+        "no-unreachable": "error",
+        "default-case": "error",
+        "eqeqeq": "error",
+        "no-fallthrough": "error",
+        "no-multi-spaces": "error",
+        "no-unmodified-loop-condition": "error",
+        "no-unused-expressions": "error",
+        "require-await": "error",
+        "no-unused-vars": "error",
+        "no-use-before-define": "error",
+        "brace-style": [
+            "error",
+            "1tbs",
+            {
+                "allowSingleLine": true
+            }
+        ],
+        "camelcase": "error",
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "jsx-quotes": [
+            "error",
+            "prefer-single"
+        ],
+        "max-len": [
+            "error",
+            {
+                "code": 100
+            }
+        ],
+        "no-multiple-empty-lines": "error",
+        "no-trailing-spaces": "error",
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "require-yield": "error"
+    }
+}
