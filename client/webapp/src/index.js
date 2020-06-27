@@ -4,10 +4,10 @@ import ReactDOM from 'react-dom';
 import App from './app.js';
 
 let root = (() => {
-    const element = document.createElement('div');
-    element.id = 'root';
+  const element = document.createElement('div');
+  element.id = 'root';
 
-    return element;
+  return element;
 })();
 document.body.appendChild(root);
 ReactDOM.render(<App />, root);
