@@ -1,0 +1,8 @@
+{
+    "environments": {
+        "local": {
+            "servicePort": 8132,
+            "webappPort": 80
+        }
+    }
+}

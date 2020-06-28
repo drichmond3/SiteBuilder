@@ -1,0 +1,18 @@
+{
+  "eslint.enable": false,
+  "trailing-spaces.trimOnSave": true,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": false
+  },
+  "eslint.validate": [
+    "javascript"
+  ],
+  "editor.rulers": [
+    100
+  ],
+  "editor.tabSize": 2,
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#ff4081"
+  }
+}
