@@ -1,8 +1,12 @@
 {
-    "environments": {
-        "local": {
-            "servicePort": 8132,
-            "webappPort": 80
-        }
+  "environments": {
+    "local": {
+      "servicePort": 3000,
+      "webappPort": 8080
+    },
+    "prod": {
+      "webappPort": 443,
+      "servicePort": 443
     }
+  }
 }

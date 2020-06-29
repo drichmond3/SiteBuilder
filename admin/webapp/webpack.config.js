@@ -40,9 +40,8 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     port: props.environments.local.webappPort,
-    open: true,
+    open: "Google Chrome",
     openPage: 'login',
-    host: '0.0.0.0',
     historyApiFallback: true,
   }
 };
