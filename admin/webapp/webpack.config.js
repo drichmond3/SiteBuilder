@@ -42,6 +42,7 @@ module.exports = {
     port: props.environments.local.webappPort,
     open: true,
     openPage: 'login',
+    host: '0.0.0.0',
     historyApiFallback: true,
   }
 };

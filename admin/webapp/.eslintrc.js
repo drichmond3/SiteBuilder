@@ -25,7 +25,6 @@ module.exports = {
     'semi': ['warn', 'always'],
     'no-multi-spaces': ['warn'],
     'no-console': ['warn'],
-    'no-extra-parens': ['warn'],
     'no-extra-semi': ['warn'],
     'no-irregular-whitespace': ['warn'],
     'no-unreachable': ['warn'],
