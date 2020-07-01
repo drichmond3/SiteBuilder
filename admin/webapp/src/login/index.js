@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './app.js';
+import App from '~/login/app.js';
 
 const root = (() => {
   const element = document.createElement('div');
