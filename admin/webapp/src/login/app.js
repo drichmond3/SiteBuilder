@@ -64,7 +64,7 @@ export default function App() {
               onClick={handleSubmit}
               type='submit'
             >
-              Submit
+              Login
             </Button>
           </Col>
         </Row>
